@@ -9,7 +9,8 @@ https://to-do-list-app-eta-lovat.vercel.app/todos
 
 # Landing Page
 
-![Screenshot 2023-11-05 132957](https://github.com/masai-course/saurabh7412-gmail.com_fw25_213/assets/121215502/8254a78b-8ff7-4077-9aa6-23c8a4810215)
+
+![Screenshot 2023-11-05 132957](https://github.com/masai-course/saurabh7412-gmail.com_fw25_213/assets/121215502/313697dc-52e4-4330-b191-6471890859f5)
 
 
 ## Development server
