@@ -1,0 +1,92 @@
+
+
+
+
+.todo-list-container {
+    margin: 20px;
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-table th,
+  .task-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: red;
+  }
+
+  .editing{
+    display: none;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  button {
+    padding: 8px 12px;
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Adjust styling for input fields as needed */
+  input {
+    width: 90%;
+    padding: 5px;
+  }
+  
+  /* Media query for tablets (768px and below) */
+  @media screen and (max-width: 768px) {
+    .todo-list-container {
+      margin: 10px;
+    }
+  
+    .task-table th,
+    .task-table td {
+      padding: 8px;
+    }
+  
+    button {
+      padding: 4px 8px;
+    }
+  }
+  
+  /* Media query for mobile devices (480px and below) */
+  @media screen and (max-width: 480px) {
+    .todo-list-container {
+      margin: 5px;
+    }
+  
+    .task-table th,
+    .task-table td {
+      padding: 6px;
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 3px 6px;
+    }
+  
+    /* Center-align the text within table cells */
+    .task-table th,
+    .task-table td {
+      text-align: center;
+    }
+  }
